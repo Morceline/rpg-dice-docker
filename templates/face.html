@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Taverna do D20</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="{{ efeito }}">
+    <div class="hud">
+        <div class="status-row"><span>PV</span><span>80/100</span></div>
+        <div class="barra-fundo"><div class="barra pv"></div></div>
+        
+        <div class="status-row"><span>PM</span><span>60/100</span></div>
+        <div class="barra-fundo"><div class="barra pm"></div></div>
+        
+        <div class="status-row"><span>VIGOR</span><span>90/100</span></div>
+        <div class="barra-fundo"><div class="barra vigor"></div></div>
+    </div>
+
+    <h1>Sorteador D20</h1>
+    <div class="dado-bg">
+        <div class="numero">{{ resultado }}</div>
+    </div>
+    <h2>{{ mensagem }}</h2>
+    <button class="btn" onclick="location.reload()">🎲 Rolar Novamente</button>
+</body>
+</html>
