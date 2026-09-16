@@ -8,7 +8,8 @@ Este é um simulador que gera resultados de dados de forma totalmente aleatória
 
 A imagem deste simulador:
 
-* **Link do Repositório:** [://docker.com](https://://docker.com)
+* **Link do Repositório:** [docker.com](https://hub.docker.com/r/jackelinejp/dado-epico)
+
 * **Comando para Baixar (Pull):**
   ```bash
   docker pull jackelinejp/dado-epico:v5
